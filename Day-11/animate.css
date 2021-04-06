@@ -1,0 +1,30 @@
+.square{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 300px;
+    border: 1px solid gray;
+   animation: animate 3s infinite;
+   background-color: indianred;
+}
+
+@keyframes animate{
+    0%{
+        transform:scale(0.2) rotate(0);
+        background: url(https://webshinelearning.web.app/videos/banner1.jpg) no-repeat center center fixed;
+    }
+    25%{
+        transform:scale(0.2) rotate(180deg);
+        background: url(/home/venky/Pictures/Friends img/DSLR/100D3400/DSC_0212.jpg) no-repeat center center fixed;
+    }
+    50%{
+        transform:scale(0.2) rotate(45deg);
+        background: url(https://webshinelearning.web.app/videos/banner1.jpg) no-repeat center center fixed;
+    }
+    100%{
+        transform: scale(1) rotate(90deg);
+        background: url(https://images.unsplash.com/photo-1593642702909-dec73df255d7?ixid=MXwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60) no-repeat center center fixed;
+    }
+}

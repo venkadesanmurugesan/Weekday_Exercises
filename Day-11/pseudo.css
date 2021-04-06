@@ -1,0 +1,30 @@
+.square{
+    height: 300px;
+    width: 300px;
+    background-color: teal;
+}
+.square:hover{
+    background-color: rgb(115, 206, 206);
+    cursor: pointer;
+}
+::placeholder{
+    color: teal;
+    background-color: gray;
+}
+.para p:first-child{
+    color: grey;
+    font-size: large;
+}
+p::first-letter{
+    color: indianred;
+    font-size: 50px;
+}
+p::first-line{
+    color: rgb(161, 84, 84);
+}
+p::before{
+    content:'First ';
+}
+p::after{
+    content:'End ';
+}

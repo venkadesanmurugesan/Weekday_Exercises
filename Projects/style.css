@@ -1,0 +1,22 @@
+.main_div{
+    display: flex;
+    justify-content: space-between;
+}
+.card_content{
+    padding: 15px;
+}
+.main_div:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+@media (max-width:768px){
+    .main_div{
+        flex-direction: column;
+    }
+    .main_div:nth-child(even){
+        flex-direction: column;
+    }
+    .card_img{
+        width: 100%;
+    }
+}

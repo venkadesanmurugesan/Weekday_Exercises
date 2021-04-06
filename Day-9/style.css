@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    background-color: aquamarine;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.navlinks{
+    display: flex;
+}
+.links a{
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}
+.links a:hover{
+    color:  darkslategray;
+}
+/* .links a:visited{
+    color: white;
+} */
+
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card_box{
+    width:250px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: steelblue;
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+}
+.div_box{
+    text-align: center;
+    width:350px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}

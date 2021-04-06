@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+
+    <style>
+        label{
+            font-weight: bolder;
+        }
+    </style>
+</head>  <div class="w3-light-grey">
+    <div class="w3-blue" style="width:75%"></div>
+  </div>
+<body bgcolor="grey">
+    <form>
+    <div>
+        <label for="Fname">First Name:</label>
+        <input id="Fname" type="text" placeholder="firstname" required><br>
+        <label for="Lname">Last Name:</label>
+        <input id="Lname" type="text" placeholder="lastname" required>
+    </div>
+        <br>
+        <label for="date">Date of birth:</label>
+        <input id="date" type="date">
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="email id">
+        <br>
+        <label for="password">Old Password:</label>
+        <input id="password" type="password" placeholder="password">
+        <label for="Npassword">New Password:</label>
+        <input id="Npassword" type="password" placeholder="password">
+        <br>
+        <label>Gender:</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <br>
+        <label for="no">Mobile Number:</label>
+        <input id="no" type="number" placeholder="MobileNumber">
+        <br>
+        <label>Hobbies:</label>
+        <input type="checkbox">Cricket
+        <input type="checkbox">FootBall
+        <input type="checkbox">Volleyball
+        <br>
+        
+        <select>
+            <option>select your places</option>
+            <option>coimbatore</option>
+            <option>chennai</option>
+            <option>salem</option>
+            <option>namakkal</option>
+        </select>
+        <br>
+        <label for="address">Address</label><br>
+        <textarea name="address" cols="30" rows="15" id="address"></textarea>
+        <br>
+        <label>Upload Files</label>
+        <input type="file">
+        <br>
+        <label>Color Picker</label>
+        <input type="color">
+        <br>
+        <label>progress:</label><br>
+        Html <progress id="file" value="90" max="100">90%</progress>
+        <br>
+        Css <progress id="file" value="90" max="100"></progress>
+        <br>
+        Java script <progress id="file" value="90" max="100"></progress>
+        <br>
+        <input type="submit" value="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>

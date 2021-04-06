@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+.float_nav_main:hover .float_content{
+    display: block;
+}
+.float_nav_main button{
+    display: inline-block;
+    padding: 8px;
+    background-color: rgb(12, 141, 130);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    font-size: large;
+    border-radius: 5px;
+    outline: none;
+}
+.float_nav_main button:hover{
+    background-color: rgb(104, 177, 177);
+}
+.float_content{
+    display: none;
+    /* background-color: gray; */
+    height: 60vh;
+    width: 100%;
+    position: absolute;
+    padding: 30px;
+    margin-top: 10px;
+}
+.float_main_content{
+    width: 250px;
+    border: 1px solid gray;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 10px 0;
+    padding: 20px;
+}
+.float_left{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+.float_main_content a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+.float_main_content a:hover{
+    background-color:#C8C9CB;
+    color: black;
+}

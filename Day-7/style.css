@@ -1,0 +1,63 @@
+body{
+    /* background-color: aquamarine; */
+}
+button{
+    width: 30%;
+    background-color: rgb(26, 252, 177);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+button:focus{
+    outline: none;
+}
+.btn{
+    text-align: center;
+}
+.btn2{
+    text-align: center;
+}
+.btn2 a{
+    background-color: teal;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+.bgdisplay{
+    background-image: url(https://webshinelearning.web.app/videos/banner1.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.card{
+    width: 250px !important;
+    max-height: 500px;
+    border: 1px solid grey;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin:0 auto;
+    padding: 10px;
+}
+.card .card_img img{
+    width: 100%;
+}
+.card_content p{ 
+    padding: 10px;
+    font-size: 16px;
+}
+.card_btn{
+    text-align: center;
+    background-color: teal;
+    width: 90%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin:0 auto;
+}
+.card_btn a{
+    text-decoration: none;
+    color: white;
+    
+}

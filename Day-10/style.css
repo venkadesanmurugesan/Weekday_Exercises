@@ -1,0 +1,48 @@
+body{
+    background: url(https://images.unsplash.com/photo-1568821387885-6101eb49c64d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzB8fGxhcHRvcCUyMHdhbGxwYXBlcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.login_main{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid rgb(172, 171, 171);
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://images.unsplash.com/photo-1616560091035-863cdf9e23e6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8bGFwdG9wJTIwd2FsbHBhcGVyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60;);
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.login_page{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.userInput input[type="text"],.userInput input[type="password"]{
+    width: 250px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(9, 163, 235);
+    outline: none;
+    font-size: 16px;
+}
+
+.btn{
+    text-align: center;
+}
+.btn button{
+    width: 250px;
+    padding: 10px;
+    background-color: teal;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}

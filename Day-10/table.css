@@ -1,0 +1,21 @@
+.my_table table,tr,th,td{
+    border: 1px solid black;
+}
+.my_table th{
+    background-color: gray;
+    padding: 10px;
+    color: white;
+}
+td{
+    padding: 10px;
+    text-align: center;
+}
+.my_table tr:nth-child(odd){
+    background-color: gray;
+}
+.my_table tr:nth-child(even){
+    background-color: rgb(175, 127, 127);
+}
+.my_table table{
+    width: 100%;
+}

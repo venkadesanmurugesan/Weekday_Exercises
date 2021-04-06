@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day5</title>
+</head>
+<body>
+    <div style="display: flex;">
+    <div>
+    <h1>SVG circle tag</h1>
+    <svg width="500" height="500">
+        <circle cx="200" cy="200" r="100" fill="red" stroke="black" stroke-width="6"></circle>
+    </svg>
+    </div>
+    <div>
+        <h1>SVG rectangle tag</h1>
+    <svg width="800" height="500">
+        <rect width="300" height="100" stroke="black" stroke-width="6" fill="red" ></rect>
+    </svg>
+    </div>
+    </div>
+    <hr>
+    <canvas id="hi" width="300" height="100" style="border: 1px solid black;"></canvas>
+    <hr>
+    <h1>Button tag</h1>
+    <button>Click Here</button>
+    <hr>
+    <h1>Pre tag</h1>
+    <pre>
+        #include
+
+            int main() {
+               /* my first program in C */
+               printf("Hello, World! \n");
+               
+               return 0;
+            }
+    </pre>
+    <hr>
+    <h1>sup and sub</h1>
+    <p>5 <sup>2</sup> = 1<sub>10 </sub>is proved //</p>
+    <hr>
+
+
+    <div style="margin-top: 800px;"></div>
+     <script>
+        var a= document.getElementById("hi");
+        var myDesign=a.getContext("2d");
+        myDesign.font="30px Arial";
+        myDesign.strokeText("Smile",110,40);
+    </script>
+</body>
+</html>
