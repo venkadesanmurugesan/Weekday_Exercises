@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .main-content{
+            width: 200px;
+            height: 200px;
+            background-color: teal;
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <div id="myName"></div>
+    <h1 id="headings">venkadesan</h1>
+
+    <script>
+        // document.getElementById("myName").innerHTML="my name is venkadesan";
+
+        // var para=document.createElement("h1");
+
+        // para.innerHTML="My name is venkadesan";
+        // document.body.append(para);
+
+        var heading = document.getElementById("myName");
+        heading.classList.add("main-content");
+        document.getElementById("headings").style=`
+        color:red; 
+        text-transform:captailize;
+        background:black;
+        padding:10px;
+        display:inline-block;
+        `;
+    </script>
+
+</body>
+</html>

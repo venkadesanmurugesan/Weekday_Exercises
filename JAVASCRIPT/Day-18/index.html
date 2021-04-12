@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="script.js">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Day 18</title>
+</head>
+<body>
+    <h1 id="heading"></h1>
+    <h2 id="head_2">Finding the HTML Elements by Id</h2>
+    <p id="intro">Hello World</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus omnis ex, ducimus cum rerum deleniti itaque, dolorum est odio expedita ipsum hic cupiditate eum sapiente vel quidem aperiam consectetur quibusdam?</p>
+    <p id="demo"></p>
+
+<script>
+    document.getElementById("heading").style.color="red";
+
+    document.getElementById("heading").style.fontFamily="arial";
+
+    document.getElementById("head_2").style.fontFamily="arial";
+
+    document.write(Date());
+
+    var myElement = document.getElementById("intro");
+    document.getElementById("demo").innerHTML="The text from the intro paragraph is "+myElement.innerHTML;
+
+    var myElement = document.getElementById("head_2");
+    document.getElementById("heading").innerHTML="HTML "+myElement.innerHTML;
+</script>
+</body>
+</html>

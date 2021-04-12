@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date and Time Display</title>
+</head>
+<body>
+    <div id="display">
+        Date<h1 id="date"></h1>
+        Month<h1 id="month"></h1>
+        Year<h1 id="year"></h1>
+    </div>
+
+    <div id="displayTime">
+
+    </div>
+
+    <script>
+        var todayDate = new Date();
+        document.getElementById("display").innerHTML=todayDate.toLocaleDateString();
+        document.getElementById("date").innerHTML=todayDate.getDay();
+        document.getElementById("month").innerHTML=todayDate.getMonth();
+        document.getElementById("year").innerHTML=todayDate.getFullYear();
+        document.getElementById("displayTime").innerHTML=todayDate.toLocaleTimeString();
+    </script>
+</body>
+</html>
